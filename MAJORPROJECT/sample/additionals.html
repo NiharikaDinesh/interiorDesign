@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sample.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $("#morebtn").click(function () {
+        $(".hidden").slideDown("slow");
+        $("#morebtn").hide();
+        $("#lessbtn").show();
+
+      });
+      $("#lessbtn").click(function () {
+        $(".hidden").slideUp("slow");
+        $("#lessbtn").hide();
+        $("#morebtn").show();
+
+      });
+    });
+
+  </script>
+
+  <title>ADDITIONALS</title>
+</head>
+
+<body>
+  <div class="main">
+    <div class="slider-background">
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <img src="../images/logo5.png" alt="LOGO">
+          </div>
+          <div class="navigation">
+            <ul>
+              <li><a href=index.html><i class="fa fa-home" aria-hidden="true"></i> HOME</a></li>
+              <li><a href=about.html><i class="fa fa-user-circle-o" aria-hidden="true"></i> ABOUT US</a></li>
+              <li><a href=works.html><i class="fa fa-id-card-o" aria-hidden="true"></i> PORTFOLIO</a></li>
+              <li><a href=services.html><i class="fa fa-laptop" aria-hidden="true"></i> BOOK ONLINE</a></li>
+              <li><a href=contact.html><i class="fa fa-phone" aria-hidden="true"></i> CONTACT</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <h1 style="text-align:center;font-size:40px">StairCase Designs</h1>
+        <div class="section">
+          <div>
+            <li><a href="../images/additionals/pic1.jpg" target="_blank"><img src="../images/additionals/pic1.jpg" alt="additionals image"></a></li>
+
+            <li><a href="../images/additionals/pic2.jpg" target="_blank"><img src="../images/additionals/pic2.jpg" alt="additionals image"></a></li>
+
+
+            <li><a href="../images/additionals/pic3.jpg" target="_blank"><img src="../images/additionals/pic3.jpg" alt="additionals image"></a></li>
+          </div>
+          <div>
+
+            <li><a href="../images/additionals/pic4.jpg" target="_blank"><img src="../images/additionals/pic4.jpg" alt="additionals image"></a></li>
+
+
+            <li><a href="../images/additionals/pic5.jpg" target="_blank"><img src="../images/additionals/pic5.jpg" alt="additionals image"></a></li>
+
+
+            <li><a href="../images/additionals/pic6.jpg" target="_blank"><img src="../images/additionals/pic6.jpg" alt="additionals image"></a></li>
+          </div>
+          <div>
+            <li class="hidden"><a href="../images/additionals/pic7.jpg" target="_blank"><img src="../images/additionals/pic7.jpg" alt="additionals images"></a></li>
+            <li class="hidden"><a href="../images/additionals/pic8.jpg" target="_blank"><img src="../images/additionals/pic8.jpg" alt="additionals images"></a></li>
+            <li class="hidden"><a href="../images/additionals/pic9.jpg" target="_blank"><img src="../images/additionals/pic9.jpg" alt="additionals images"></a></li>
+          </div>
+          <div>
+            <li class="hidden"><a href="../images/additionals/pic10.jpg" target="_blank"><img src="../images/additionals/pic10.jpg" alt="additionals images"></a></li>
+            <li class="hidden"><a href="../images/additionals/pic11.jpg" target="_blank"><img src="../images/additionals/pic11.jpg" alt="additionals images"></a></li>
+            <li class="hidden"><a href="../images/additionals/pic12.jpg" target="_blank"><img src="../images/additionals/pic12.jpg" alt="additionals images"></a></li>
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+  </div>
+
+</body>
+<div class="buttons">
+  <button id="morebtn">Show more</button>
+  <button id="lessbtn">show less</button>
+</div>
+
+</html>
