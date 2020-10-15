@@ -1,0 +1,388 @@
+*{
+   margin:0 auto;
+    padding:0;
+   box-sizing: border-box;
+}
+html,body{
+   
+    height:auto;
+    width:100%;
+}
+body{
+    font-family:'Playfair Display';
+    font-size: 14px;
+    line-height: inherit;
+    min-height: 100%;
+   
+
+}
+.header{
+   /* background-image: url(../images/bg2.jpg);
+   */
+    background-color:#3c677c;
+  
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+   
+}
+
+
+.header{
+    
+    display:inline-block;
+    width: 100%;
+    height:10%
+	    min-width:500px;
+    float : left;
+}
+.logo{
+    float: left;
+    padding-left: 10px;
+}
+.nav-bar{
+    float:right;
+
+}
+.nav-bar ul li{
+    /*list-style-type: none;*/
+    display: inline-flex;
+    float: left;
+
+}
+.nav-bar ul li i{
+    color:white;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:24px;
+    font-family:'Playfair Display';
+    display: block;
+    padding-top: 30px;
+    
+    padding-bottom: 10px;
+    padding-right: 3vw;
+}
+h1{
+    padding:15px 0;
+    font-family: 'Playfair Display';
+    color:tomato;
+}
+.container{
+  width:100%;
+  height:100%;
+  max-height:1500vh;
+	min-width:500px;
+}
+.section{
+  width:100%;
+  min-height:100%;
+  margin-left:4%;
+  margin-right: %;
+  text-align: center;
+  min-width:500px;
+  
+}
+ .section li{
+    list-style-type: none;
+    
+    
+}
+.section li img{
+    float: left;
+  width: 30%;
+ 
+  height:30%;
+  padding:1% 1%;
+
+  
+}
+button{
+  background-color:black;
+  color:white;
+  font-size:15px;
+  padding:5px 5px;
+  position:absolute;
+}
+.hidden{
+  display:none;
+}
+#lessbtn{
+  display:none;
+  position:relative;
+  /*left:-45vw;
+  top:-57vh;*/
+}
+#morebtn{
+  position:relative;
+ 
+  /*left:40vw;
+  top:-5vh;*/
+}
+/*.column1, .column2, .column3, .column4{
+  float: left;
+  width: 30%;
+  height:30%;
+  padding: 2%;
+}*/
+
+.section::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.buttons{
+  text-align: center;
+}
+.column {
+ 
+  float: left;
+  width: auto;
+  
+  height: auto;
+  padding-left:5vw;
+   /* Should be removed. Only for demonstration */
+}
+form{
+  padding-left:5vw;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  padding:3%;
+ 
+}
+h5{
+  font-size: 25px;
+  color:black;
+  padding:0px 3px;
+}
+p{
+  font-size:20px;
+  padding:1px 5px;
+}
+.wrapper{
+  height:10vh;
+}
+
+.wrapper .button{
+  display: inline-block;
+ 
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+
+
+label{
+  font-family:'Playfair Display';
+  font-size:25px;
+}
+
+input, textarea {
+	font-family:'Assistant';
+	border: 0; 
+	outline: 0; 
+	background:transparent;
+	border-bottom: 1px solid #0D0D0D;	
+	width:100%;
+}
+.content{
+  background-image: url(../images/bg5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:100vh;
+  width:100%;
+	min-width:500px;
+  
+}
+#text{
+  padding-top:25vh;
+}
+#text h3,#text p{
+  color:black;
+  font-size: 30px;
+  font-family: "playfair display";
+  position:relative;
+  text-align:center;
+
+}
+footer{
+  padding-left:7%;
+  padding:right:7%;
+  background-color: black;
+	min-width:500px;
+  
+}
+footer h5, footer p{
+  color:white;
+}
+footer h5{
+  font-size: 15px;
+  padding-top:20px;
+
+}
+footer p{
+  font-size:13px;
+ 
+}
+footer .column {
+ 
+  float: left;
+  width: 24%;
+  text-align:center;
+  float:left;
+  height: auto;
+padding-left:1%;
+	padding-right:1%;
+
+   /* Should be removed. Only for demonstration */
+}
+footer .row{
+  width:91vw;
+}
+footer .row::after{
+  padding:2px;
+
+}
+
+footer .icons{
+  color:white;
+  text-align:center;
+}
+footer .icons ul li{
+  list-style-type:none;
+  padding:8px 8px;
+  font-size:30px;
+}
+footer #copyright{
+  text-align:center;
+}
+
+.features{
+  
+  text-align:center;
+  margin-top:5%;
+  margin-bottom: 5%;
+  min-width:500px;
+  border-color:black solid 0.1;
+ 
+ 
+}
+.carousel-inner .item-ative , .carousel-inner .item{
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin:4%;
+ padding:0px 0px;
+  text-align: center;
+  background-color: #f1f1f1;
+  width:100%;
+  height:auto;
+}
+
+.card h1{
+  color:black;
+  padding:5px;
+}
+.card .set img{
+  width:100%;
+  height: 100%;
+ vertical-align: middle; 
+}
+
+.card  a{
+  text-decoration: none;
+  margin:0%;
+  
+  font-size:20px;
+  background-color:#1010100a;
+}
+
+.set{
+  width:100%;
+  height:80%;
+  margin-left:auto;
+  margin-right: auto;
+  background-color: black;
+  color:white;
+  font-size: 25px;
+}
+.section1 .row{
+  margin-left:4%;
+  margin-right:4%;
+  margin-top:2%;
+  margin-bottom:2%;
+}
+.section1 .column{
+  float:left;
+  width:33%;
+  height:50%;
+ 
+  padding:10px;
+  min-width:300px;
+ 
+ 
+}
