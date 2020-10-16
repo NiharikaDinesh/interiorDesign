@@ -1,0 +1,64 @@
+<%- include('partials/header'); %>
+  <link rel="stylesheet" href="/css/sample.css">
+
+  <div class="container" style="margin-top:80px;">
+
+
+      <form action="/book" method="post" style="padding-left:0;">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-lg-6"><i class="fas fa-user"></i>
+        <input type="text" class="form-control" name="firstname" placeholder="First name" >
+      </div>
+      <div class="col-12 col-sm-12 col-lg-6"><i class="fas fa-signature"></i>
+        <input type="text" class="form-control" name="lastname" placeholder="Last name">
+      </div>
+      <div class="form-group col-12 col-sm-12 col-lg-6">
+  <i class="fas fa-envelope"></i>
+        <input type="email" name="emailadd" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
+      </div>
+      <div class="col-12 col-sm-12 col-lg-6">
+      <i class="fas fa-phone-alt"></i>  <input type="text" name="pno" class="form-control" name="phone" placeholder="Phone No.">
+      </div>
+      <div class="form-group col-12 col-sm-12 col-lg-12">
+  <i class="fa fa-address-card-o" aria-hidden="true"></i>
+
+        <textarea class="form-control" name="addr" id="exampleFormControlTextarea1" rows="2" placeholder="Address Line"></textarea>
+      </div>
+<div class="form-group col-12 col-sm-12 col-lg-12">
+<i class="fas fa-inbox"></i>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="design" placeholder="How do you want it to be?"></textarea>
+</div>
+
+      <div class="form-group col-12 col-sm-12 col-lg-4">
+
+      </div>
+
+      <div class="form-group col-12 col-sm-12 col-lg-4">
+        <input class="form-control submit" type="submit" value="BOOK NOW" style="background-color:#3c677c;color:white;" />
+      </div>
+      <div class="form-group col-12 col-sm-12 col-lg-4">
+
+      </div>
+    </div>
+
+
+
+
+  </form>
+
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<footer style="padding-left:0; "><p id="copyright">&copy; All Rights Reserved to Interior Designers</p>
+<div class="icons">
+  <ul style="display:inline-flex;">
+    <li><i class="fa fa-facebook-f"></i></li>
+    <li> <i class="fa fa-twitter"></i></li>
+    <li> <i class="fa fa-instagram"></i></li>
+
+
+  </ul></footer>
